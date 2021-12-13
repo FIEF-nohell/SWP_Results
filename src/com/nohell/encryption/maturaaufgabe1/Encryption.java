@@ -1,5 +1,5 @@
 package com.nohell.encryption.maturaaufgabe1;
 
-public interface encryption {
+public interface Encryption {
     public String encrypt(String input);
 }

@@ -1,6 +1,6 @@
 package com.nohell.encryption.maturaaufgabe1;
 
-public class reverse implements encryption{
+public class Reverse implements Encryption {
     @Override
     public String encrypt(String input) {
         return input + " encrypted by reverse";

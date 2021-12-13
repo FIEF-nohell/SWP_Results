@@ -1,11 +1,11 @@
 package com.nohell.encryption.maturaaufgabe1;
 
-public class main {
+public class Main {
 
     public static void main(String[] args) {
 
-        encryption c = new caesar();
-        encryption r = new reverse();
+        Encryption c = new Caesar();
+        Encryption r = new Reverse();
 
         System.out.println(c.encrypt("ses"));
         System.out.println(r.encrypt("ses"));
