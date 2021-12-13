@@ -1,4 +1,4 @@
-package com.nohell.encryption.maturaaufgabe1;
+package com.nohell.maturaaufgabe1;
 
 public class Main {
 
