@@ -1,4 +1,5 @@
 package com.nohell.games.firstgame;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,7 +15,7 @@ public class MainGame extends BasicGame {
 
     @Override
     public void render(GameContainer gc, Graphics graphics) throws SlickException {
-        for (Actor actor: this.actors) {
+        for (Actor actor : this.actors) {
             actor.render(graphics);
         }
     }
@@ -38,21 +39,19 @@ public class MainGame extends BasicGame {
 
     @Override
     public void update(GameContainer gc, int delta) throws SlickException {
-        for (Actor actor: this.actors) {
+        for (Actor actor : this.actors) {
             actor.update(gc, delta);
         }
     }
 
-
     public static void main(String[] argv) {
         try {
             AppGameContainer container = new AppGameContainer(new MainGame("ala ala"));
-            container.setDisplayMode(1700,800,false);
+            container.setDisplayMode(1700, 800, false);
             container.start();
         } catch (SlickException e) {
             e.printStackTrace();
         }
     }
-
 
 }
