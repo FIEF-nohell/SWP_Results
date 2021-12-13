@@ -1,5 +1,3 @@
 .idea
-lib
-native
-out
-testdata
+/out/
+*.iml
