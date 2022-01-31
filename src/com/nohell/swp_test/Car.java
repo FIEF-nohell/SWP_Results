@@ -5,13 +5,13 @@ import java.util.List;
 public class Car {
 
     private List<Algorithm> AlgoList = new ArrayList<>();
-    private Motorsteuerung ms;
+    private EngineController ms;
 
     public void addAlgorithm(Algorithm alg){
         this.AlgoList.add(alg);
     }
 
-    public void setMotorsteuerung(Motorsteuerung new_ms){
+    public void setMotorsteuerung(EngineController new_ms){
         this.ms = new_ms;
     }
 

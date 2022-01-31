@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
     Car c1 = new Car();
-    Motorsteuerung ms1 = new Motorsteuerung();
+    EngineController ms1 = new EngineController();
     c1.setMotorsteuerung(ms1);
 
     SuperSaver ss = new SuperSaver();
